@@ -1,0 +1,41 @@
+Arguments: 
+  C:\nodejs\node.exe C:\nodejs\node_modules\yarn\bin\yarn.js add @typescript
+
+PATH: 
+  C:\Program Files\Docker\Docker\Resources\bin;C:\terraform;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\cahek\AppData\Roaming\nvm;C:\nodejs;C:\Users\cahek\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\ffmpeg\bin;C:\wget\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Skype\Phone\;c:\Program Files\Docker\Docker\resources\bin\;D:\GoogleDrive\bin-win;C:\Program Files\Amazon\AWSCLI\;D:\Cmder;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft VS Code Insiders\bin;C:\teraform;C:\Users\cahek\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\cahek\AppData\Local\Microsoft\WindowsApps;C:\Users\cahek\.babun
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  6.9.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "ts-scope-emit-time",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@typescript: Not found
+      at Request.params.callback [as _callback] (C:\Users\cahek\AppData\Roaming\nvm\v6.9.1\node_modules\yarn\lib\util\request-manager.js:313:18)
+      at Request.self.callback (C:\Users\cahek\AppData\Roaming\nvm\v6.9.1\node_modules\yarn\node_modules\request\request.js:188:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (C:\Users\cahek\AppData\Roaming\nvm\v6.9.1\node_modules\yarn\node_modules\request\request.js:1171:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at IncomingMessage.<anonymous> (C:\Users\cahek\AppData\Roaming\nvm\v6.9.1\node_modules\yarn\node_modules\request\request.js:1091:12)
+      at IncomingMessage.g (events.js:291:16)
+      at emitNone (events.js:91:20)
